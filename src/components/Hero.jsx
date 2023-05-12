@@ -11,21 +11,22 @@ const Hero = () => {
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://tejashree198.github.io/Portfolio/", "_blank")
           }
           className='black_btn'
         >
-          GitHub
+          About Me
         </button>
       </nav>
 
       <h1 className='head_text'>
-        Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient '>OpenAI GPT-4</span>
+        Article Summarization with <br className='max-md:hidden' />
+        <span className='purple_gradient '>SummerEase</span><br></br>
+        {/* <span className='orange_gradient '>OpenAI GPT-4</span> */}
       </h1>
       <h2 className='desc'>
-        Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+        Get The Summery of Webpages within Minutes!!<br></br>
+        Accurate | Short | On-Topic
       </h2>
     </header>
   );
