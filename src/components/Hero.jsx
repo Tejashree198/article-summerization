@@ -6,12 +6,13 @@ const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+        {/* <img src={logo} alt='' className='w-28 object-contain' /> */}
 
         <button
           type='button'
           onClick={() =>
             window.open("https://tejashree198.github.io/Portfolio/", "_blank")
+          
           }
           className='black_btn'
         >
@@ -21,7 +22,7 @@ const Hero = () => {
 
       <h1 className='head_text'>
         Article Summarization <br className='max-md:hidden' />
-        <span className='purple_gradient '>SummerEase</span><br></br>
+        <span className='purple_gradient '>SummarEase</span><br></br>
         {/* <span className='orange_gradient '>OpenAI GPT-4</span> */}
       </h1>
       <h2 className='desc'>
